@@ -1,0 +1,64 @@
+.App {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+
+.mid-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.weekday {
+  width: 770px;
+  margin: 1em auto 0 auto;
+}
+
+.weekday div {
+  width: 100px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.navigation {
+  width: 770px;
+  height: 40px;
+  color: #2c2c2c;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.menu {
+  width: 770px;
+  }
+
+.menu h3 {
+    margin-top: 3px;
+    }
+
+.calendar {
+  width: 770px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.event-wrapper {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bg-event{
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+.current-date{
+  margin-top: 7px;
+  text-decoration: underline;
+  
+}
+
+.bg-red{
+  background-color: #6A4AE3;
+  box-shadow: 0px 0px 3px #cbd4c2;
+}

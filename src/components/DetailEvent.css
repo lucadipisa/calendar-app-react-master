@@ -1,0 +1,18 @@
+.show-event {
+  width: 300px;
+  height: 400px;
+  padding: 2em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  display: flex;
+  overflow-y: hidden;
+}
+
+.text-bloc {
+  width: 100%;
+  font-size: 14px;
+  word-wrap: break-word;
+}
